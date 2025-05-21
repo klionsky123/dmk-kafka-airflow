@@ -4,7 +4,7 @@
 
 ## About
 
-POC for insgestion of the streaming data into the databese with Kafka and Apache Airflow.
+POC for the ingestion of the streaming data into the databese with Kafka and Apache Airflow.
 
 ### Watch the Introduction Video on YouTube (5 min):
 
