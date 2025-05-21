@@ -1,4 +1,4 @@
-#ETL with Kafka in Apache Airflow
+# ETL with Kafka in Apache Airflow
 
 ---
 
