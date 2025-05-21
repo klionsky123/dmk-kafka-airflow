@@ -1,14 +1,12 @@
-# Metadata-Driven ETL Framework for Complex Workflows in Apache Airflow
+#ETL with Kafka in Apache Airflow
 
 ---
 
 ## About
 
-This framework provides a metadata-driven orchestration layer integrated with Apache Airflow, enabling scalable, maintainable, and auditable ETL processes. It abstracts job definitions, task logic, source configurations, and execution states into centralized metadata tables, forming the "brain" of the system.
+POC for insgestion of the streaming data into the databese with Kafka and Apache Airflow.
 
 ### Watch the Introduction Video on YouTube (5 min):
-
-[![DMK Airflow ETL Video](https://img.youtube.com/vi/PLd0rHZdO3s/0.jpg)](https://www.youtube.com/watch?v=PLd0rHZdO3s)
 
 
 ## ✅ Main Features
@@ -21,23 +19,18 @@ This framework provides a metadata-driven orchestration layer integrated with Ap
 
 ## Tech Stack
 
+- **Kafka**
 - **Apache Airflow**
 - **Python**
 - **MS SQL Server**
-- **Postgres**
-- **Kafka**
 - **Docker** 
 
 ---
 
 ## Project Notes
 
-- Microsoft SQL Server, installed on a separate machine, serves as the destination database and contains:
-  1. Custom metadata tables (in a dedicated metadata schema)
-  2. Both 'Stage' and 'Production' data tables
-- Apache Airflow, running in Docker, is used for job scheduling and ETL orchestration.
-- The `Extract` step is implemented via Python pandas, sqlalchemy and SQL Server stored procs.
-- Both `Transform` and `Load` steps are handled via SQL stored procedures.
+- MSSQL serves as the destination server and contains both 'Stage' and 'Production' databases
+- Apache Airflow, running in Docker, is used for the job scheduling and ETL orchestration.
   
 ### Project Architecture: 
 
