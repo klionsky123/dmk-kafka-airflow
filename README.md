@@ -6,8 +6,11 @@
 
 POC for the ingestion of the streaming data into the database with Kafka and Apache Airflow.
 
-### Watch the Introduction Video on YouTube (5 min):
+This is a part of a larger [Airflow-ETL project](https://github.com/klionsky123/dmk-airflow-etl/blob/main/README.md)
 
+### Watch the Introduction Video on YouTube (3 min):
+
+[![DMK kafka-airflow Video](https://img.youtube.com/vi/I4p6JL10tFg/0.jpg)](https://www.youtube.com/watch?v=I4p6JL10tFg)
 
 ## ✅ Main Features
 
