@@ -34,24 +34,9 @@ POC for the ingestion of the streaming data into the databese with Kafka and Apa
   
 ### Project Architecture: 
 
-<img src="diagrams/Project-architecture.jpg" alt="Example" width="500" hight="300"/>
+<img src="diagrams/Kafka-Project-architecture.jpg" alt="Example" width="500" hight="300"/>
 
 ---
-
-## 🧠 ETL-Metadata-framework Database Features
-
-ETL-Metadata-framework is more than just a storage layer for job configs. It also includes Extract SQL queries, tables column mappings and more.
-
-It provides support for 
-- `Data Lineage` & Traceability (source systems, intermediate steps, and target destinations).
-- Both informational and error db-logging tied to each job execution id.
-- `Extract`-only or (`Transform` & `Load`)-only job structures.
-- Storage of `Extract` sql queries as well as the tracking of the stored procs (aka 'scripts') used in `Transform` & `Load`.
-- Full and Incremental `Extracts` based on incremental dates.
-- `Large vs. Small Data` metadata switches resulting in the different approaches for performance (via python layer)
-- Task-level activation on/off-switches without modifying the overall job
-- Configurable cleanup for the temp structures (extract temp tables, flat files) via metadata on/off-switches
-
 
 ### ETL-Metadata-tables schema 
 
