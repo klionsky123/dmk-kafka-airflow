@@ -49,7 +49,7 @@ A fully functional, stand-alone set of metadata tables, stored procedures to sup
 
 ### Documentation:
 
-[AirFlow-ETL-Presentation](https://github.com/klionsky123/dmk-airflow-etl/blob/main/diagrams/AirFlow-ETL-Presentation.pdf)
+[Kafka-AirFlow-Presentation](https://github.com/klionsky123/dmk-kafka-airflow/blob/main/diagrams/AirFlow-Kafka-Presentation.pdf)
 
 ---
 
