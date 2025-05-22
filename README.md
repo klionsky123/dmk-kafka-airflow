@@ -11,8 +11,8 @@ POC for the ingestion of the streaming data into the database with Kafka and Apa
 
 ## ✅ Main Features
 
-- Contains a fully functional, stand-alone set of metadata tables, stored procedures, and python modules to support ETL processes.
-- Extracts sample data from various data sources—flat files, relational databases (RDBMS), REST APIs(token-based auth, pagination, etc.), Kafka streaming, —with a strong emphasis on performance.
+- Contains a fully functional, stand-alone set of metadata tables, stored procedures, and python modules to support ETL process.
+- Extracts sample steaming data into the database for further processing.
 - Scheduled and orchestrated through Apache Airflow.
 
 ---
@@ -38,10 +38,6 @@ POC for the ingestion of the streaming data into the database with Kafka and Apa
 
 ---
 
-### ETL-Metadata-tables schema 
-
-<img src="diagrams/metadata-db-schema.jpg" alt="Example" width="500" hight="300"/>
-
 ### Documentation:
 
 [AirFlow-ETL-Presentation](https://github.com/klionsky123/dmk-airflow-etl/blob/main/diagrams/AirFlow-ETL-Presentation.pdf)
@@ -50,7 +46,6 @@ POC for the ingestion of the streaming data into the database with Kafka and Apa
 
 ## Road Map
 
-- Add Use cases for streaming data (Kafka), Parque files (AWS)
 - Add support for PostgreSQL metadata store (currently, MS SQL Server only)
 
 
