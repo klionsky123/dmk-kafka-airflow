@@ -1,4 +1,4 @@
-# ETL with Kafka in Apache Airflow
+# Kafka python pipelines with Apache Airflow
 
 ---
 
